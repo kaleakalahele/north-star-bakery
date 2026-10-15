@@ -1,6 +1,3 @@
-/* North Star Bakery - Visual Design */
-
-/* Main colors and fonts */
 :root {
     --cream: #FFF8F0;
     --brown: #6B3E26;
@@ -119,9 +116,9 @@ main h2 {
     margin-top: 0;
 }
 
-/* Images and video */
+/* Images and audio */
 main img,
-main video {
+main audio {
     display: block;
     max-width: 100%;
     height: auto;
@@ -234,7 +231,6 @@ input[type="submit"]:hover {
         gap: 1.5rem;
     }
 
-    /* Give content more breathing room */
     main {
         padding: 2.5rem 2rem;
     }
@@ -244,13 +240,11 @@ input[type="submit"]:hover {
         margin-bottom: 2rem;
     }
 
-    /* Make the contact form easier to read */
     form {
         max-width: 700px;
         margin: 0 auto;
     }
 
-    /* Increase heading sizes on larger screens */
     h1 {
         font-size: 2.5rem;
     }
