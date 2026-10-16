@@ -44,6 +44,10 @@
             </p>
             <p>Price range: $6 - $12</p>
 
+            <button type="button" class="favorite-button" data-product="Signature Loaf">
+                Add to Favorites
+            </button>
+
             <figure>
                 <img src="media/bakery-signature-loaf_c.png"
                     alt="Freshly baked signature bread loaf with a golden crust" width="400">
@@ -70,12 +74,21 @@
             </p>
             <p>Price range: $3 - $5</p>
 
+            <button type="button" class="favorite-button" data-product="Butter Croissants">
+                Add to Favorites
+            </button>
+
             <h3>Cinnamon Rolls</h3>
             <p>
                 Soft, fluffy rolls filled with cinnamon sugar
                 and topped with a sweet glaze.
             </p>
             <p>Price range: $4 - $7</p>
+
+            <button type="button" class="favorite-button" data-product="Cinnamon Rolls">
+                Add to Favorites
+            </button>
+
         </section>
 
         <section>
@@ -94,6 +107,10 @@
             </p>
             <p>Price range: $25 - $45</p>
 
+            <button type="button" class="favorite-button" data-product="Birthday Cakes">
+                Add to Favorites
+            </button>
+
             <h3>Celebration Cakes</h3>
             <p>
                 Beautifully decorated cakes for weddings,
@@ -101,16 +118,32 @@
             </p>
             <p>Price range: $40 - $65</p>
 
+            <button type="button" class="favorite-button" data-product="Celebration Cakes">
+                Add to Favorites
+            </button>
+
             <p>
                 Interested in ordering a custom cake?
                 <a href="contact.html">Contact us to get started!</a>
             </p>
         </section>
+
+        <section id="favorites-section">
+            <h2>Your Favorites</h2>
+            <p>Save your favorite North Star Bakery treats here!</p>
+            <ul id="favorites-list">
+                <li>No favorites saved yet.</li>
+            </ul>
+        </section>
+
     </main>
     <footer>
         <p>&copy; 2026 North Star Bakery.</p>
         <p>Freshly baked with love for our community.</p>
+
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
